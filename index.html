@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anas Lebkhaiti</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="web, javascript, freelance, wordPress, front-end, build website">
+    <meta name="author" content="Anas Lebkhaiti">
+    <link rel="shortcut icon" href="images/logo.png" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,700;1,400;1,500;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="flexboxSt.css">
+</head>
+
+<body>
+    <header>
+        <h2><a href="#">Anas Lebkhaiti</a></h2>
+        <nav>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </nav>
+    </header>
+    <section class="banner-area">
+        <div class="banner-img"></div>
+        <h1>Anas Lebkhaiti</h1>
+        <div class="intro">
+            <h1>Hello I'm a </h1>
+            <h1 class="typing">hi</h1>
+        </div>
+        <ul class="social-media">
+            <li><a href="https://www.linkedin.com/in/anas-lebkhaiti-2446b5170/"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/Anaslbkh?tab=repositories"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/anaslbkh34/"></a><i class="fab fa-instagram"></i></li>
+        </ul>
+        <a href="#contact" class="banner-btn">Contact Us</a>
+    </section>
+    <section class="about-area" id="about">
+        <h3 class="section-title">About Me</h3>
+        <ul class="about-content">
+            <li class="about-left"></li>
+            <li class="about-right">
+                <h2>Anas Lebkhaiti</h2>
+                <p>I'm 22 years old and I'm a web developer, I have studied the development Informatique for two years.
+                    <br>
+                    Besides the Programmation, I love the design that helped me to learn photoshop, and web design by
+                    adobe XD, Figma.</p>
+                <a class="about-btn" href="/">Learn more</a>
+            </li>
+        </ul>
+    </section>
+    <section class="servies-area" id="services">
+        <h3 class="section-title">Skills</h3>
+        <ul class="services-content">
+            <li>
+                <i class="fab fa-html5"></i>
+                <h4>HTML5</h4>
+            </li>
+            <li>
+                <i class="fab fa-css3-alt"></i>
+                <h4>CSS3</h4>
+            <li>
+                <i class="fab fa-js-square"></i>
+                <h4>JAVASCRIPT</h4>
+            </li>
+            <li>
+                <i class="fab fa-bootstrap"></i>
+                <h4>BOOTSTRAP</h4>
+            </li>
+            <li>
+                <img src="images/jquery.png" alt="">
+                <h4>JQUERY</h4>
+            </li>
+            <li>
+                <i class="fab fa-node-js"></i>
+                <h4>NODE.JS</h4>
+            </li>
+            <li>
+                <i class="fab fa-php"></i>
+                <h4>PHP</h4>
+            </li>
+            <li>
+                <img src="images/sql.png" alt="">
+                <h4>SQL</h4>
+            </li>
+            <li>
+                <img src="images/mongodb.png" alt="">
+                <h4>MONGODB</h4>
+            </li>
+            <li>
+                <i class="fab fa-wordpress-simple"></i>
+                <h4>WORDPRESS</h4>
+            </li>
+            <li>
+                <i class="fab fa-figma"></i>
+                <h4>FIGMA</h4>
+            </li>
+            <li>
+                <img src="images/xd.png" alt="">
+                <h4>ADOBE XD</h4>
+            </li>
+            <li>
+                <img src="images/photoshop.png" alt="">
+                <h4>PHOTOSHOP</h4>
+            </li>
+        </ul>
+    </section>
+    <section class="projects-area" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('letstravel')"> let's Travel to morocco</button>
+            <button class="btn" onclick="filterSelection('beton')"> Beton & design</button>
+            <button class="btn" onclick="filterSelection('dev')">DEV_BLOG </button>
+            <button class="btn" onclick="filterSelection('Others')">Others</button>
+        </div>
+
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+            <div class="column letstravel">
+                <div class="content">
+                    <img src="images/travel.png" alt="Mountains" style="width:100%">
+                    <h4>MainPage</h4>
+                    <p><a href="https://lets-tavel-morocco.herokuapp.com/" target="_blank">Visit the site let's tavel to
+                            morocco</a></p>
+                </div>
+            </div>
+            <div class="column letstravel">
+                <div class="content">
+                    <img src="images/lets-tavel-morocco-sight.png" alt="Lights" style="width:100%">
+                    <h4>Posts page</h4>
+                    <p><a href="https://lets-tavel-morocco.herokuapp.com/" target="_blank">Visit the site let's tavel to
+                            morocco</a></p>
+                </div>
+            </div>
+            <div class="column letstravel">
+                <div class="content">
+                    <img src="images/lets-tavel-morocco-addpostadmin.png" alt="Nature" style="width:100%">
+                    <h4>Admin Page</h4>
+                    <p><a href="https://lets-tavel-morocco.herokuapp.com/" target="_blank">Visit the site let's tavel to
+                            morocco</a></p>
+                </div>
+            </div>
+
+            <div class="column beton">
+                <div class="content">
+                    <img src="images/beton.png" alt="Car" style="width:100%">
+                    <h4>Main page</h4>
+                    <p><a href="http://www.betonetdesign.com/index.html" target="_blank">Visit the site Beton et
+                            design</a></p>
+                </div>
+            </div>
+            <div class="column beton">
+                <div class="content">
+                    <img src="images/betonetdesign-sol.png" alt="Car" style="width:100%">
+                    <h4>Services Page</h4>
+                    <p><a href="http://www.betonetdesign.com/index.html" target="_blank">Visit the site Beton et
+                            design</a></p>
+                </div>
+            </div>
+            <div class="column beton">
+                <div class="content">
+                    <img src="images/betonetdesign-contact-php.png" alt="Car" style="width:100%">
+                    <h4>Contact</h4>
+                    <p><a href="http://www.betonetdesign.com/index.html" target="_blank">Visit the site Beton et
+                            design</a></p>
+                </div>
+            </div>
+
+            <div class="column dev">
+                <div class="content">
+                    <img src="images/devblog.png" alt="People" style="width:100%">
+                    <h4>Main</h4>
+                    <p><a href="https://devbloganaslbkh.000webhostapp.com/" target="_blank">Visit the site Dev Blog</a>
+                    </p>
+                </div>
+            </div>
+            <div class="column dev">
+                <div class="content">
+                    <img src="images/devbloganaslbkh-prj.png" alt="People" style="width:100%">
+                    <h4>Blogs</h4>
+                    <p> <a href="https://devbloganaslbkh.000webhostapp.com/" target="_blank">Visit the site Dev Blog</a>
+                    </p>
+                </div>
+            </div>
+            <div class="column dev">
+                <div class="content">
+                    <img src="images/devbloganaslbkhprojects.png" alt="People" style="width:100%">
+                    <h4>Projects</h4>
+                    <p><a href="https://devbloganaslbkh.000webhostapp.com/" target="_blank">Visit the site Dev Blog</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- END GRID -->
+            <div class="column Others">
+                <div class="content">
+                    <img src="images/ExotiCar_HP.jpg" alt="People" style="width:100%">
+                    <h4>ExotiCar(HTML_CSS)</h4>
+                    <p><a href="https://github.com/Anaslbkh?tab=repositories" target="_blank">the code source</a>
+                </div>
+            </div>
+            <div class="column Others">
+                <div class="content">
+                    <img src="images/GOTHAM.png" alt="People" style="width:100%">
+                    <h4>GOTHAM(HTML_CSS)</h4>
+                    <p><a href="https://github.com/Anaslbkh?tab=repositories" target="_blank">the code source</a>
+                </div>
+            </div>
+            <div class="column Others">
+                <div class="content">
+                    <img src="images/flippgame.png" alt="People" style="width:100%">
+                    <h4>Flippgame</h4>
+                    <p><a href="https://github.com/Anaslbkh/flipgame" target="_blank">the code source</a>
+                </div>
+            </div>
+            <div class="column Others">
+                <div class="content">
+                    <img src="images/cnn.png" alt="People" style="width:100%">
+                    <h4>CNN clone(HTML_CSS)</h4>
+                    <p><a href="https://github.com/Anaslbkh/CNN-clone-website" target="_blank">the code source</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-area" id="contact">
+        <h3 class="section-title">Contact</h3>
+        <ul class="contact-content">
+            <li>
+                <i class="fa fa-map-marker"></i>
+                <p>El jadida, Morocco </p>
+            </li>
+            <li>
+                <i class="fa fa-phone"></i>
+                <p>+212611089562</p>
+            </li>
+            <li>
+                <i class="fa fa-envelope"></i>
+                <p> anaslebkhaiti@gmail.com</p>
+            </li>
+        </ul>
+    </section>
+    <section class="from">
+        <h2>Contact me</h2>
+        <div class="container-form">
+            <form netlify>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Your Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>All Right Reserved by Anas Lebkhaiti</p>
+        <ul class="social-media">
+            <li><a href="https://www.linkedin.com/in/anas-lebkhaiti-2446b5170/"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/Anaslbkh?tab=repositories"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/anaslbkh34/"></a><i class="fab fa-instagram"></i></li>
+        </ul>
+    </footer>
+    <script src="port.js"></script>
+</body>
+
+</html>
